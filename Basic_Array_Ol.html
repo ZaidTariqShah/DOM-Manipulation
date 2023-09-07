@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        zaid = ["zaid", "is", "my", "name"]
+        let ol = document.createElement('ol');
+        for (let i = 0; i < zaid.length; i++) {
+            let li = document.createElement('li')
+            li.innerHTML = zaid[i];
+            ol.append(li);
+            document.body.append(ol);
+        }
+    </script>
+</body>
+
+</html>
